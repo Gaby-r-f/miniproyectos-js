@@ -42,7 +42,33 @@ body{
 #titulo{
     width: 100%;
     font-weight: bold;
+    font-size: 45px;
+   
 }
-#cita{
-     
-}
+#cita {
+    font-size: 32px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 5px;
+   
+  }
+  
+  #autor {
+    width: 100%;
+    font-size: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 30px;
+  }
+  #boton-cambiar-cita{
+    width: 85px;
+    height: 35px;
+    border-radius: 30px;
+    font-size: 15px;
+    cursor: pointer;
+  }
+ 
