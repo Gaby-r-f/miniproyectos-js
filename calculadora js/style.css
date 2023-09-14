@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Comme', sans-serif;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color:rgb(126, 126, 126) ;
+}
+.micalculadora{
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    width: 240px;
+    margin: 0 auto;
+    background: rgb(2, 10, 17) ;
+    border-radius: 10px;
+}
+div input[type='button'], button{
+    width: 50px;
+    height: 50px;
+    margin: 3px;
+    border-style: none;
+    background-color: rgb(1, 6, 10);
+    color: aliceblue;
+    font-size: 25px;
+    border-radius: 50px;
+
+}
+div input[type = 'text']{
+    direction: rtl;
+    height: 80px;
+    width: 230px;
+    background-color: rgb(2, 10, 17);
+    color: aliceblue;
+    padding: 12px 20px;
+    margin-top: 5px;
+    margin-bottom: 20px;
+    font-size: 25px;
+    border-radius: 1px;
+    border-color:  rgb(2, 10, 17);
+    border: 0;
+}
+div.resultado input,div.resultado button{
+    background-color: rgb(253, 134, 54);
+    height: 40px;
+    width: 110px;
+    margin-top: 2px;
+    margin-bottom: 8px;
+    border-radius:3px ;
+}
+div.resultado button{
+    background-color: red;
+}
