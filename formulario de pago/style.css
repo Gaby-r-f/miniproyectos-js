@@ -1,0 +1,117 @@
+* {
+  box-sizing: border-box;
+  font-family: sans-serif;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+  background-size: cover;
+ 
+}
+body{
+  background-image: url(vecteezy_smiling-woman-paying-online-using-laptop-holding-plastic_7389487_896.jpg) ;
+  color: black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position:relative;
+  min-height: 100vh;
+  
+}
+h1{
+  font-size: 20px;
+  margin: 0;
+  color: black;
+}
+.contenedor{
+  justify-content: center;
+  align-items: center;
+  width: 400px;
+  height: 450px;
+  background-color: rgb(135, 136, 136);
+  display:flex;
+  flex-direction: column;
+  padding-left: 5px;
+  padding-bottom: 40px;
+  padding-top: 45px;
+  border-radius: 20px;
+  opacity: 0.7;
+  box-shadow: 5px 5px 10px 5px;
+}
+.numero-tarjeta{
+  width: 393px;
+  height: 60px;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 5%;
+}
+.input-cart-number{
+  
+  width: 80px;
+  height: 35px;
+  align-items: center;
+  border-radius: 5px;
+  border: none;
+  margin-left: 2%;
+}
+label{
+  display: flex;
+  font-size: 13px;
+}
+.nombre-tarjeta{
+
+  width: 393px;
+  height: 65px;
+  margin-top: 3%;
+}
+#card-holder{
+  width: 380px;
+  height: 35px;
+  border-radius: 5px;
+  border: none;
+  margin-left: 2%;
+}
+.fecha-vencimiento{
+  margin-top: 3%;
+  display: flex;
+  width: 393px;
+  height: 65px;
+  justify-content: space-around;
+  align-items: center;
+  
+}
+#card-expiration-month{
+  width: 80px;
+  height: 40px;
+  border-radius: 5px;
+}
+#card-expiration-year{
+  width: 80px;
+  height: 40px;
+  border-radius: 5px;
+}
+.codigo-ccv{
+  width: 393px;
+  height: 65px;
+  display: flex;
+  align-items: center;
+  margin-top: 3%;
+
+}
+#card-ccv{
+  width: 80px;
+  height: 35px;
+  border-radius: 5px;
+  margin-left: 10%;
+  border: none;
+}
+.div-btn{
+  margin: 5%;
+}
+.btn{
+  width: 280px;
+  height: 50px;
+  border-radius: 10px;
+  border-style: none;
+  background-color: black;
+  color: aliceblue;
+}

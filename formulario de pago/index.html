@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="main.js"></script>
+    <script src="https://code.iconify.design/iconify-icon/1.0.7/iconify-icon.min.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300&display=swap" rel="stylesheet">
+    <script src="main.js"></script>
+</head>
+<body>
+    <div class="contenedor">
+      <h1>PAYMENT</h1>
+      
+      <div class="numero-tarjeta">
+      <label for="">Numero de Tarjeta</label>
+      <input type="num" id="card-number" class="input-cart-number" maxlength="4" />
+      <input type="num" id="card-number-1" class="input-cart-number" maxlength="4" />
+      <input type="num" id="card-number-2" class="input-cart-number" maxlength="4" />
+      <input type="num" id="card-number-3" class="input-cart-number" maxlength="4" />
+      </div>
+      <div class="nombre-tarjeta">
+        <label for="card-holder">Nombre en la tarjeta</label>
+      <input type="text" id="card-holder" />
+      </div>
+     <div class="fecha-vencimiento">
+        <label for="card-expiration-month">Fecha de vencimiento</label>
+      
+       <div class="select">
+        <select id="card-expiration-month">
+          <option></option>
+          <option>01</option>
+          <option>02</option>
+          <option>03</option>
+          <option>04</option>
+          <option>05</option>
+          <option>06</option>
+          <option>07</option>
+          <option>08</option>
+          <option>09</option>
+          <option>10</option>
+          <option>11</option>
+          <option>12</option>
+        </select>
+       </div>
+      <div class="select">
+        <select id="card-expiration-year">
+          <option></option>
+          <option>2016</option>
+          <option>2017</option>
+          <option>2018</option>
+          <option>2019</option>
+          <option>2020</option>
+          <option>2021</option>
+          <option>2022</option>
+          <option>2023</option>
+          <option>2024</option>
+          <option>2025</option>
+        </select>
+      </div>
+    </div>
+    <div class="codigo-ccv">
+      <label for="card-ccv">CCV</label>
+        <input type="text" id="card-ccv"> 
+    </div>
+    <div class="div-btn">
+      <button class="btn"><i class="fa fa-lock"></i> submit</button>
+    </div>
+    <div class="logos">
+      <iconify-icon icon="logos:mastercard" class="master-card" width="40"></iconify-icon>
+          <iconify-icon icon="logos:visa" width="80"></iconify-icon>
+    </div>       
+</body>
+</html>
